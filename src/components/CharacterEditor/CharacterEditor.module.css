@@ -5,7 +5,9 @@
 
 .maxWidthWrapper {
   max-width: 1024px;
+  position: relative;
 }
+
 
 .header {
   padding-bottom: 64px;
@@ -37,4 +39,13 @@
   width: 50%;
   max-width: 50%;
   white-space: nowrap;
+}
+
+.perspectiveBar{
+  position: fixed;
+  background-color: lightgray;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40%;
 }
